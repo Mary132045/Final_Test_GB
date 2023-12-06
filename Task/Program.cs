@@ -1,6 +1,6 @@
 ﻿string[] array_1 = new string[4] { "Hello", "2", "world", ";)" };
 string[] array_2 = new string[array_1.Length];
-void SecArr(string[] array_1, string[] array_2)
+void NewArray(string[] array_1, string[] array_2)
 {
     int count = 0;
     for (int i = 0; i < array_1.Length; i++)
@@ -20,5 +20,5 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-SecArr(array_1, array_2);
+NewArray(array_1, array_2);
 PrintArray(array_2);
